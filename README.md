@@ -27,14 +27,14 @@ The aim is to build a practical understanding of how attacks unfold and what evi
 | Host | Windows, AMD Ryzen 7 7700, 32 GB RAM |
 | Hypervisor | Oracle VirtualBox (Type 2) |
 | Attacker | Kali Linux: 4 vCPUs, 4 GB RAM |
-| Victim | *Planned:* Metasploitable 2 |
-| Detection | *Planned:* Suricata, Zeek |
+| Victim | Metasploitable 2 |
+| Detection | Suricata, Zeek |
 
-### Network design (planned)
+### Network design
 
 ```
                  ┌──────────────── VirtualBox ────────────────┐
-  Internet ◄─NAT─┤ eth0  Kali Linux (attacker)                │
+  Internet ◄─NAT─┤ eth0  Kali Linux (attacker)                 │
                  │ eth1 ──┐                                    │
                  │        │  Internal Network (isolated)       │
                  │        └──── Metasploitable 2 (victim)      │
@@ -52,11 +52,10 @@ The aim is to build a practical understanding of how attacks unfold and what evi
 - [x] Install VirtualBox
 - [x] Import and boot Kali Linux (NAT)
 - [x] Verify networking (`ip a`, `ip route`)
-- [x] Change default credentials
-- [x] Update Kali (`apt full-upgrade`) and take a clean baseline snapshot
-- [ ] Add victim VM and configure the isolated internal network
+- [x] Add metasploitable VM and configure the isolated internal network
+- [x] Confirm network matches the design
 - [ ] Install and configure Suricata and Zeek
-- [ ] Stage the attack
+- [x] Stage the attack
 - [ ] Detect and triage alerts
 - [ ] Investigate: timeline, root cause, impact
 - [ ] Map to MITRE ATT&CK
@@ -69,12 +68,11 @@ The aim is to build a practical understanding of how attacks unfold and what evi
 | Stage | Document |
 |---|---|
 | 1. Lab setup | [docs/01-lab-setup.md](docs/01-lab-setup.md) |
-| 2. Network design | *coming soon* |
-| 3. Attack | *coming soon* |
-| 4. Detection | *coming soon* |
-| 5. Investigation | *coming soon* |
-| 6. ATT&CK mapping | *coming soon* |
-| Incident report | *coming soon* |
+| 2. Recon and exploitation | [docs/02-recon-and-exploitation.md](docs/02-recon-and-exploitation.md) |
+| 3. Detection | *coming soon* |
+| 4. Investigation | *coming soon* |
+| 5. ATT&CK mapping | *coming soon* |
+| 6. Incident report | *coming soon* |
 
 ---
 
@@ -106,10 +104,10 @@ All activity is performed in an isolated VirtualBox lab against intentionally vu
 
 ## Lessons Learned
 
-*To be completed at the end of the project.*
+*Will be completed at the end of report*
 
 ---
 
 ## Author
 
-**Umar Rahman** · Final-year Computer Science student, University of Southampton
+**Umar Rahman** · University of Southampton
