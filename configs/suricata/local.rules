@@ -1,0 +1,6 @@
+# Custom Suricata rule — vsftpd 2.3.4 backdoor detection
+# Detects the ":)" smiley trigger in an FTP USER command (CVE-2011-2523).
+# The default ET Open ruleset detects the port scan but NOT this backdoor,
+# so this rule closes that gap.
+# Author: Umar Rahman
+alert tcp any any -> any 21 (msg:"LOCAL rule: vsftpd 2.3.4 backdoor trigger detected"; content:"USER"; content:":)"; sid:1000001; rev:1; classtype:trojan-activity;)

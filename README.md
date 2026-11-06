@@ -69,7 +69,7 @@ The aim is to build a practical understanding of how attacks unfold and what evi
 |---|---|
 | 1. Lab setup | [docs/01-lab-setup.md](docs/01-lab-setup.md) |
 | 2. Recon and exploitation | [docs/02-recon-and-exploitation.md](docs/02-recon-and-exploitation.md) |
-| 3. Detection | *coming soon* |
+| 3. Detection | [docs/03-detection.md](docs/03-detection.md) |
 | 4. Investigation | *coming soon* |
 | 5. ATT&CK mapping | *coming soon* |
 | 6. Incident report | *coming soon* |
