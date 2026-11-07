@@ -69,8 +69,8 @@ The aim is to build a practical understanding of how attacks unfold and what evi
 | 1. Lab setup | [docs/01-lab-setup.md](docs/01-lab-setup.md) |
 | 2. Recon and exploitation | [docs/02-recon-and-exploitation.md](docs/02-recon-and-exploitation.md) |
 | 3. Detection | [docs/03-detection.md](docs/03-detection.md) |
-| 4. Investigation | Covered in the [incident report](report/incident-report.md) (timeline, root cause, impact) |
-| 5. ATT&CK mapping | Covered in the [incident report](report/incident-report.md) (§8) |
+| 4. Investigation | Covered in the [incident report](report/incident-report.md) |
+| 5. ATT&CK mapping | Covered in the [incident report](report/incident-report.md)  |
 | 6. Incident report | [report/incident-report.md](report/incident-report.md) |
 
 ---
@@ -80,11 +80,27 @@ The aim is to build a practical understanding of how attacks unfold and what evi
 ```
 home-dfir-lab/
 ├── README.md
-├── docs/                 # Write-ups for each stage
+├── docs/                           # Write-ups for each stage
+│   ├── 01-lab-setup.md
+│   ├── 02-recon-and-exploitation.md
+│   └── 03-detection.md
 ├── evidence/
-│   └── screenshots/      # Command output and tool screenshots
-├── configs/              # Suricata rules and Zeek scripts
-└── report/               # Final incident report
+│   ├── README.md                   # Index of all screenshots
+│   ├── artifacts/                  # Raw evidence (pcap and logs)
+│   │   ├── incident.pcap
+│   │   ├── fast.log
+│   │   ├── conn.log
+│   │   └── ftp.log
+│   └── screenshots/                # Command output and tool screenshots, by stage
+│       ├── 01-lab-setup/
+│       ├── 02-recon-exploitation/
+│       ├── 03-detection/
+│       └── 04-investigation/
+├── configs/
+│   └── suricata/
+│       └── local.rules             # Custom detection rule 
+└── report/
+    └── incident-report.md          # Full incident report
 ```
 
 ---
