@@ -107,9 +107,13 @@ The key defensive finding is that signature-based detection caught the noisy sca
 
 | Tactic | Technique | In this incident |
 |---|---|---|
-| Discovery | T1046 Network Service Discovery | Nmap service/version scan |
-| Lateral Movement | T1210 Exploitation of Remote Services | Exploiting the vsftpd 2.3.4 backdoor to gain access |
-| Execution | T1059 Command and Scripting Interpreter | Commands run in the root shell |
+| Discovery | T1046 Network Service Discovery | Nmap service/version scan of the victim |
+| Initial Access | T1190 Exploit Public-Facing Application | Exploiting the vsftpd 2.3.4 backdoor to gain a root shell |
+| Execution | T1059.004 Command and Scripting Interpreter: Unix Shell | Commands run via `/bin/sh` in the root shell |
+
+Technique references are from the [MITRE ATT&CK framework](https://attack.mitre.org/). T1190 is mapped as exploitation for initial access; strictly, the technique is framed around internet-facing services, whereas here the vulnerable service was internal to the lab, but the behaviour (exploiting an exposed network service to gain a foothold) is the same. T1059.004 maps to the shell commands executed after access, not to the exploit trigger itself.
+
+T1210 (Exploitation of Remote Services) was deliberately not used: it belongs to the Lateral Movement tactic and describes exploiting a service to move between already-compromised hosts, which this single-host initial compromise did not involve.
 
 ---
 
@@ -132,7 +136,7 @@ In the interest of an honest assessment:
 - **Lab scale:** this is a small, single-host lab. Zeek's and the IDS's real strengths appear at production scale (searchable logs across high-volume traffic), which a lab this size does not exercise. Here, Wireshark alone was sufficient to analyse the traffic; Zeek was used to demonstrate the network-security-monitoring approach.
 - **Sensor placement:** detection was run on the attacker host for simplicity. A more realistic deployment would use a dedicated sensor with traffic mirroring, separating the monitor from the attacker.
 - **Multiple sessions:** the exercise was conducted over several sessions, so some evidence (for example the reconnaissance alert) comes from a separate capture to the exploitation.
-
+- **The detection rule is a basic one.** The custom rule simply looks for `USER` and `:)` in the same packet; it does not confirm they are part of the same FTP username, and it only watches port 21. It works as a proof of concept, but a stronger rule would use Suricata's built-in FTP parsing to read the actual commands, which would be more reliable and would also catch FTP running on other ports.
 ---
 
 ## 11. Evidence (Appendix)

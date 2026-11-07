@@ -1,0 +1,67 @@
+10/28/2026-16:02:41.523716  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.10.10.10:45147 -> 10.10.10.20:5432
+10/28/2026-16:02:46.741950  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:57290 -> 10.10.10.20:80
+10/28/2026-16:02:46.745507  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:55002 -> 10.10.10.20:8180
+10/28/2026-16:02:46.743158  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:57304 -> 10.10.10.20:80
+10/28/2026-16:02:46.839341  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:55000 -> 10.10.10.20:8180
+10/28/2026-16:02:46.849571  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:57334 -> 10.10.10.20:80
+10/28/2026-16:02:46.859890  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:57350 -> 10.10.10.20:80
+10/28/2026-16:02:46.908514  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:55024 -> 10.10.10.20:8180
+10/28/2026-16:02:46.919263  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:55014 -> 10.10.10.20:8180
+10/28/2026-16:11:18.408805  [**] [1:2260003:1] SURICATA Applayer Protocol detection skipped [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.10.10.20:41915 -> 10.10.10.10:4444
+10/28/2026-16:11:19.690253  [**] [1:2002024:21] ET CHAT IRC NICK command [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.10.10.10:44209 -> 10.10.10.20:6667
+11/04/2026-17:29:15.695457  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:49352 -> 10.10.10.20:8180
+11/04/2026-17:29:15.705958  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:56924 -> 10.10.10.20:80
+11/04/2026-17:29:15.715159  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:56934 -> 10.10.10.20:80
+11/04/2026-17:29:15.805111  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:56946 -> 10.10.10.20:80
+11/04/2026-17:29:15.855313  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:56950 -> 10.10.10.20:80
+11/04/2026-17:29:15.865771  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:49360 -> 10.10.10.20:8180
+11/04/2026-17:29:15.945426  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:49386 -> 10.10.10.20:8180
+11/04/2026-17:29:15.975563  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:49370 -> 10.10.10.20:8180
+11/05/2026-11:13:07.395367  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.10.10.10:37643 -> 10.10.10.20:5432
+11/05/2026-11:15:07.819311  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:36230 -> 10.10.10.20:80
+11/05/2026-11:15:07.960002  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:36214 -> 10.10.10.20:80
+11/05/2026-11:15:08.146811  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:36242 -> 10.10.10.20:80
+11/05/2026-11:15:08.147718  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:36250 -> 10.10.10.20:80
+11/05/2026-11:15:08.307216  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:40024 -> 10.10.10.20:8180
+11/05/2026-11:15:08.317081  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:40004 -> 10.10.10.20:8180
+11/05/2026-11:15:08.367684  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:40036 -> 10.10.10.20:8180
+11/05/2026-11:15:08.417376  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:40040 -> 10.10.10.20:8180
+11/05/2026-12:21:07.602085  [**] [1:1000001:1] LOCAL rule: vsftpd 2.3.4 backdoor trigger detected [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.10.10.10:42154 -> 10.10.10.20:21
+11/05/2026-12:35:18.141787  [**] [1:1000001:1] LOCAL rule: vsftpd 2.3.4 backdoor trigger detected [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.10.10.10:56016 -> 10.10.10.20:21
+11/06/2026-17:48:33.312639  [**] [1:1000001:1] LOCAL rule: vsftpd 2.3.4 backdoor trigger detected [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.10.10.10:56598 -> 10.10.10.20:21
+11/07/2026-08:45:27.982899  [**] [1:1000001:1] LOCAL rule: vsftpd 2.3.4 backdoor trigger detected [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.10.10.10:53260 -> 10.10.10.20:21
+11/07/2026-09:36:43.326874  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.10.10.10:33691 -> 10.10.10.20:5432
+11/07/2026-09:36:48.716206  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:48286 -> 10.10.10.20:80
+11/07/2026-09:36:48.832673  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:48270 -> 10.10.10.20:80
+11/07/2026-09:36:49.013702  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:48332 -> 10.10.10.20:80
+11/07/2026-09:36:49.243119  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:48318 -> 10.10.10.20:80
+11/07/2026-09:36:49.282873  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:54268 -> 10.10.10.20:8180
+11/07/2026-09:36:49.303430  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:54278 -> 10.10.10.20:8180
+11/07/2026-09:36:49.432814  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:54322 -> 10.10.10.20:8180
+11/07/2026-09:36:49.452911  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:54306 -> 10.10.10.20:8180
+11/07/2026-11:16:56.702958  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.10.10.10:32973 -> 10.10.10.20:5432
+11/07/2026-11:17:02.051909  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:54422 -> 10.10.10.20:80
+11/07/2026-11:17:02.211667  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:54436 -> 10.10.10.20:80
+11/07/2026-11:17:02.362757  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:54418 -> 10.10.10.20:80
+11/07/2026-11:17:02.451589  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:54442 -> 10.10.10.20:80
+11/07/2026-11:17:02.463033  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:44852 -> 10.10.10.20:8180
+11/07/2026-11:17:02.589245  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:44854 -> 10.10.10.20:8180
+11/07/2026-11:17:02.872446  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:44878 -> 10.10.10.20:8180
+11/07/2026-11:17:02.991094  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:44876 -> 10.10.10.20:8180
+11/07/2026-11:25:36.033351  [**] [1:1000001:1] LOCAL rule: vsftpd 2.3.4 backdoor trigger detected [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.10.10.10:51990 -> 10.10.10.20:21
+11/07/2026-11:31:44.695831  [**] [1:1000001:1] LOCAL rule: vsftpd 2.3.4 backdoor trigger detected [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.10.10.10:59184 -> 10.10.10.20:21
+11/07/2026-11:33:53.873964  [**] [1:2100498:7] GPL ATTACK_RESPONSE id check returned root [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.10.10.20:6200 -> 10.10.10.10:39448
+11/07/2026-11:48:21.242699  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.10.10.10:41251 -> 10.10.10.20:5432
+11/07/2026-11:48:26.259006  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:56556 -> 10.10.10.20:8180
+11/07/2026-11:48:26.278274  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:40768 -> 10.10.10.20:80
+11/07/2026-11:48:26.288829  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:40786 -> 10.10.10.20:80
+11/07/2026-11:48:26.407611  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:40800 -> 10.10.10.20:80
+11/07/2026-11:48:26.449144  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:40810 -> 10.10.10.20:80
+11/07/2026-11:48:26.609599  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:56566 -> 10.10.10.20:8180
+11/07/2026-11:48:26.648118  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:56600 -> 10.10.10.20:8180
+11/07/2026-11:48:26.657387  [**] [1:2024364:5] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 10.10.10.10:56590 -> 10.10.10.20:8180
+11/07/2026-12:00:48.410908  [**] [1:1000001:1] LOCAL rule: vsftpd 2.3.4 backdoor trigger detected [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.10.10.10:34898 -> 10.10.10.20:21
+11/07/2026-12:01:06.304209  [**] [1:1000001:1] LOCAL rule: vsftpd 2.3.4 backdoor trigger detected [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.10.10.10:52842 -> 10.10.10.20:21
+11/07/2026-12:04:57.560969  [**] [1:1000001:1] LOCAL rule: vsftpd 2.3.4 backdoor trigger detected [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.10.10.10:56918 -> 10.10.10.20:21
+11/07/2026-12:06:10.099732  [**] [1:1000001:1] LOCAL rule: vsftpd 2.3.4 backdoor trigger detected [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.10.10.10:37980 -> 10.10.10.20:21
+11/07/2026-12:09:16.038421  [**] [1:2100498:7] GPL ATTACK_RESPONSE id check returned root [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.10.10.20:6200 -> 10.10.10.10:50672

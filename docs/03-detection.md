@@ -69,7 +69,13 @@ Re-running the trigger made my rule fire:
 
 My own rule (SID 1000001) caught the exact attack the 53,000 built-in rules let through.
 
-Limitation of the rule: it only inspects port 21, so a backdoor trigger over FTP on a non-standard port (the victim also runs ProFTPD on 2121) would be missed. A more robust version would use Suricata's app-layer FTP detection (alert ftp ...) to catch the trigger on any port FTP runs on. This is a planned v2.
+**Limitations of the rule.** This rule works, but it is a simple one I wrote for the lab, not something you would run in production. It has two main weaknesses:
+
+- **It doesn't check that `USER` and `:)` belong together.** The rule just looks for both `USER` and `:)` somewhere in the same packet. It doesn't confirm the `:)` is actually part of the FTP username, so a normal login like `USER bob` that happened to have a `:)` elsewhere in the packet could set it off by mistake (a false alarm). A better rule would make sure the `:)` is inside the username itself.
+- **It only watches port 21.** FTP normally runs on port 21, but it can run on other ports too (this victim also runs a second FTP service on 2121). The rule would miss the same attack there.
+
+A more robust version would use Suricata's built-in understanding of FTP, so it reads the actual FTP commands instead of just scanning the raw packet for text. That would fix both problems at once, and it is the improvement I would make next.
+The production approach to both problems is to use Suricata's app-layer FTP keywords, which inspect the parsed FTP command field rather than raw packet bytes. That is port-agnostic and far less prone to false positives, and it is the planned v2. The gap between this lab rule and that version is a good illustration of the difference between a signature that works in a test and one you would actually deploy.
 
 ## Key takeaways
 
